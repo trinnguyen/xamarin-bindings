@@ -7,7 +7,12 @@ Collections of Xamarin binding projects for popular native libraries, include iO
 - [x] REFrostedViewController (iOS 7/8 style blurred view controller that appears on top of your view controller)
 - [x] CircleIndicator (Android - A lightweight viewpager indicator like in nexus 5 launcher)
 
-External repositories:
-- [x] OpenCV for Xamarin.iOS (https://github.com/trinnguyen/xamarin.ios-opencv)
-- [x] LinkedIn Mobile SDKs (https://github.com/trinnguyen/linkedin-sdk-xamarin)
-- [x] SVProgressHUD(https://github.com/trinnguyen/SVProgressHUD-Xamarin)
+## Others
+- [OpenCV for Xamarin.iOS](https://github.com/trinnguyen/xamarin.ios-opencv)
+- [linkedin-sdk-xamarin](https://github.com/trinnguyen/linkedin-sdk-xamarin)
+- [SVProgressHUD-Xamarin](https://github.com/trinnguyen/SVProgressHUD-Xamarin)
+- [Xamarin.iOS Binding for 1Password Extension](https://github.com/trinnguyen/onepassword-app-extension-xamarin)
+- [NYTPhotoViewer-Xamarin](https://github.com/trinnguyen/NYTPhotoViewer-Xamarin)
+- [Xamarin-libPhoneNumber](https://github.com/trinnguyen/Xamarin-libPhoneNumber)
+- [CorePlot-Xamarin](https://github.com/trinnguyen/CorePlot-Xamarin)
+- [JVFloatLabeledTextField-Xamarin](https://github.com/trinnguyen/JVFloatLabeledTextField-Xamarin)
