@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='com.thoughtbot.expandablerecyclerview.listeners']/interface[@name='GroupExpandCollapseListener']/method[@name='onGroupExpanded']/parameter[1]" name="managedName">group</attr>
+    <attr path="/api/package[@name='com.thoughtbot.expandablerecyclerview.listeners']/interface[@name='GroupExpandCollapseListener']/method[@name='onGroupCollapsed']/parameter[1]" name="managedName">group</attr>
+</metadata>

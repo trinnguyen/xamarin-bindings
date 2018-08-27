@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+<!--    <remove-node path="/api/package[@name='com.rd.draw.drawer.type']" />-->
+<!--    <remove-node path="/api/package[@name='com.rd.animation.type']" />-->
+    <attr path="/api/package[@name='com.rd.animation.type']/class[@name='SwapAnimation']/method[@name='createAnimator' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.rd.animation.type']/class[@name='SwapAnimation']/method[@name='progress' and count(parameter)=1 and parameter[1][@type='float']]" name="managedReturn">Com.RD.Animation.Type.BaseAnimation</attr>
+
+    <attr path="/api/package[@name='com.rd.animation.type']/class[@name='ColorAnimation']/method[@name='createAnimator' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.rd.animation.type']/class[@name='ColorAnimation']/method[@name='progress' and count(parameter)=1 and parameter[1][@type='float']]" name="managedReturn">Com.RD.Animation.Type.BaseAnimation</attr>
+
+    <attr path="/api/package[@name='com.rd.animation.type']/class[@name='WormAnimation']/method[@name='createAnimator' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.rd.animation.type']/class[@name='WormAnimation']/method[@name='progress' and count(parameter)=1 and parameter[1][@type='float']]" name="managedReturn">Com.RD.Animation.Type.BaseAnimation</attr>
+
+    <attr path="/api/package[@name='com.rd.animation.type']/class[@name='SlideAnimation']/method[@name='createAnimator' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.rd.animation.type']/class[@name='SlideAnimation']/method[@name='progress' and count(parameter)=1 and parameter[1][@type='float']]" name="managedReturn">Com.RD.Animation.Type.BaseAnimation</attr>
+
+    <attr path="/api/package[@name='com.rd.animation.type']/class[@name='DropAnimation']/method[@name='createAnimator' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.rd.animation.type']/class[@name='DropAnimation']/method[@name='progress' and count(parameter)=1 and parameter[1][@type='float']]" name="managedReturn">Com.RD.Animation.Type.BaseAnimation</attr>
+
+
+    <remove-node path="/api/package[@name='com.rd.draw.drawer.type']" />
+
+    <remove-node path="/api/package[@name='com.rd']/interface[@name='IndicatorManager.Listener']" />
+</metadata>
