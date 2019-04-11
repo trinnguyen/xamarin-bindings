@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "android-bindings", "android-bindings", "{DE8679AA-850D-46E3-83F1-40FC096949E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.ExpandableRecyclerView", "android-bindings\Xamarin.ExpandableRecyclerView\Xamarin.ExpandableRecyclerView.csproj", "{FEA3CE6F-3E1F-40AC-B3B5-5DE1D4AEFC78}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.ExpandableRecyclerView", "Xamarin.ExpandableRecyclerView\Xamarin.ExpandableRecyclerView.csproj", "{FEA3CE6F-3E1F-40AC-B3B5-5DE1D4AEFC78}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{A88D7A5B-A78D-4283-A057-E17A6D86232E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAndroid", "samples\DemoAndroid\DemoAndroid.csproj", "{A217C249-8938-4D4E-A5F3-B417F7201E73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.PhotoView", "android-bindings\Xamarin.PhotoView\Xamarin.PhotoView.csproj", "{E128E4A1-A099-4D83-86A8-2F639D4BB8B4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.PhotoView", "Xamarin.PhotoView\Xamarin.PhotoView.csproj", "{E128E4A1-A099-4D83-86A8-2F639D4BB8B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.PageIndicatorView", "android-bindings\Xamarin.PageIndicatorView\Xamarin.PageIndicatorView.csproj", "{27C10BDA-FA1A-4C71-8049-21DB31EBB117}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.PageIndicatorView", "Xamarin.PageIndicatorView\Xamarin.PageIndicatorView.csproj", "{27C10BDA-FA1A-4C71-8049-21DB31EBB117}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Picasso", "android-bindings\Xamarin.Picasso\Xamarin.Picasso.csproj", "{4733E4D3-F7CB-4D16-9D20-01F7EF79FA15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Picasso", "Xamarin.Picasso\Xamarin.Picasso.csproj", "{4733E4D3-F7CB-4D16-9D20-01F7EF79FA15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -3,15 +3,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{27C10BDA-FA1A-4C71-8049-21DB31EBB117}</ProjectGuid>
+    <ProjectGuid>{4733E4D3-F7CB-4D16-9D20-01F7EF79FA15}</ProjectGuid>
     <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>Xamarin.PageIndicatorView</RootNamespace>
-    <AssemblyName>Xamarin.PageIndicatorView</AssemblyName>
+    <RootNamespace>Xamarin.Picasso</RootNamespace>
+    <AssemblyName>Xamarin.Picasso</AssemblyName>
     <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <AndroidClassParser>class-parse</AndroidClassParser>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -41,6 +40,13 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
+    <Reference Include="Square.OkIO">
+      <HintPath>..\..\packages\Square.OkIO.1.13.0\lib\MonoAndroid\Square.OkIO.dll</HintPath>
+    </Reference>
+    <Reference Include="Squareup.OkHttp3.OkHttp">
+      <HintPath>..\..\packages\Kwon.Squareup.OkHttp3.OkHttp.3.10.0.1\lib\monoandroid81\Squareup.OkHttp3.OkHttp.dll</HintPath>
+    </Reference>
+    <Reference Include="Java.Interop" />
     <Reference Include="Xamarin.Android.Support.Annotations">
       <HintPath>..\..\packages\Xamarin.Android.Support.Annotations.27.0.2.1\lib\MonoAndroid81\Xamarin.Android.Support.Annotations.dll</HintPath>
     </Reference>
@@ -91,10 +97,7 @@
     <TransformFile Include="Transforms\Metadata.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Jars\" />
-  </ItemGroup>
-  <ItemGroup>
-    <LibraryProjectZip Include="Jars\pageindicatorview-1.0.1.aar" />
+    <LibraryProjectZip Include="Jars\picasso-2.71828.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <Import Project="..\..\packages\Xamarin.Android.Support.Annotations.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Annotations.targets" Condition="Exists('..\..\packages\Xamarin.Android.Support.Annotations.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Annotations.targets')" />
