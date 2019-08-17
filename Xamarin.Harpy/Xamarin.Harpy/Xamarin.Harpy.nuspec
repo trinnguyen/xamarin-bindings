@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Xamarin.Harpy</id>
+    <version>4.1.14</version>
+    <title>Xamarin.Harpy</title>
+    <authors>Tri Nguyen</authors>
+    <owners>trinnguyen</owners>
+    <projectUrl>https://github.com/trinnguyen/Xamarin.Harpy</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Xamarin.iOS Binding for Harpy (Notify users when a new version of your app is available and prompt them to upgrade)</description>
+    <copyright>Copyright 2018</copyright>
+    <tags>xamarin.ios Harpy Xamarin.Harpy</tags>
+  </metadata>
+  <files>
+	  <file src="bin/Release/Xamarin.Harpy.dll" target="lib/Xamarin.iOS10" />
+  </files>
+</package>

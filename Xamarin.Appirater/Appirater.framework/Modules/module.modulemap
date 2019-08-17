@@ -1,0 +1,6 @@
+framework module Appirater {
+  umbrella header "Appirater.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Xamarin.Toast</id>
+    <version>4.0.0</version>
+    <authors>Tri Nguyen</authors>
+    <owners>Tri Nguyen</owners>
+    <projectUrl>https://github.com/trinnguyen/Toast-Xamarin</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Xamarin.iOS binding for Toast ObjC library. Simple, lightweight, and easy to use with a single line of code.</description>
+    <releaseNotes>Native library release 4.0.0</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>xamarin.ios xamarin.toast toast</tags>
+  </metadata>
+  <files>
+    <file src="Xamarin.Toast/bin/Release/Xamarin.Toast.dll" target="lib/Xamarin.iOS10" />
+  </files>
+</package>

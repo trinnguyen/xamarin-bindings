@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CBA10A03-AA27-40A4-8E61-B4F1A694DD7E}</ProjectGuid>
+    <ProjectTypeGuids>{8FFB629D-F513-41CE-95D2-7ECE97B6EEEC};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Xamarin.Harpy</RootNamespace>
+    <AssemblyName>Xamarin.Harpy</AssemblyName>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ObjcBindingCoreSource Include="Structs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="Frameworks\Harpy.framework">
+      <Kind>Framework</Kind>
+    </NativeReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Harpy.bundle\ar.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\cs.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\da.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\de.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\el.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\en.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\es.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\et.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\eu.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\fa-AF.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\fa-IR.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\fa.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\fi.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\fr.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\he.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\hr.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\hu.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\hy.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\id.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\it.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\ja.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\ko.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\lt.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\lv.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\ms.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\nb-NO.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\nl.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\pl.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\pt-PT.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\pt.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\ru.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\sl.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\sr-Cyrl.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\sr-Latn.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\sv.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\th.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\tr.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\uk.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\ur.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\vi.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\zh-Hans.lproj\HarpyLocalizable.strings" />
+    <BundleResource Include="Resources\Harpy.bundle\zh-Hant.lproj\HarpyLocalizable.strings" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
+</Project>

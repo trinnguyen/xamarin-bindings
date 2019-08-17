@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Xamarin.CorePlot</id>
+    <version>2.3</version>
+    <title>CorePlot in Xamarin.iOS</title>
+    <authors>Tri Nguyen</authors>
+    <owners>Eric Skroch</owners>
+    <licenseUrl>https://github.com/trinnguyen/CorePlot-Xamarin/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/trinnguyen/CorePlot-Xamarin</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Bring full features of CorePlot v2 (2Dplotting framework for macOS, iOS, and tvOS) to Xamarin.iOS</description>
+    <releaseNotes>APIs update according to native release 2.3</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>coreplot xamarin</tags>
+  </metadata>
+  <files>
+	  <file src="bin/Release/Xamarin.CorePlot.dll" target="lib/Xamarin.iOS10" />
+  </files>
+</package>
