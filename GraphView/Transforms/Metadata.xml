@@ -1,9 +1,10 @@
-﻿<metadata>
-	<!--
-  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
-  
-  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
-  -->
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <remove-node path="/api/package[@name='com.jjoe64.graphview']/class[@name='BuildConfig']" />
+    <remove-node path="/api/package[@name='com.jjoe64.graphview']/class[@name='CursorMode']/field[@name='mStyles']" />
+    <remove-node path="/api/package[@name='com.jjoe64.graphview']/class[@name='Viewport']/field[@name='referenceX']" />
+    <remove-node path="/api/package[@name='com.jjoe64.graphview']/class[@name='Viewport']/field[@name='referenceY']" />
+    
+    <!-- Normalize the namespace for .NET -->
+    <attr path="/api/package[@name='com.jjoe64.graphview']" name="managedName">JJoe64Graph</attr>
 </metadata>

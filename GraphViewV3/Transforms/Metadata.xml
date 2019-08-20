@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!--
+    <remove-node path="/api/package[@name='com.jjoe64.graphview']/class[@name='BuildConfig']" />
+    <remove-node path="/api/package[@name='com.jjoe64.graphview']/class[@name='CursorMode']/field[@name='mStyles']" />
+    <remove-node path="/api/package[@name='com.jjoe64.graphview']/class[@name='Viewport']/field[@name='referenceX']" />
+    <remove-node path="/api/package[@name='com.jjoe64.graphview']/class[@name='Viewport']/field[@name='referenceY']" />
+    -->
+    <attr path="/api/package[@name='com.jjoe64.graphview']/class[@name='BarGraphView']/method[@name='drawSeries' and count(parameter)=11 and parameter[1][@type='android.graphics.Canvas'] and parameter[2][@type='com.jjoe64.graphview.GraphViewDataInterface[]'] and parameter[3][@type='float'] and parameter[4][@type='float'] and parameter[5][@type='float'] and parameter[6][@type='double'] and parameter[7][@type='double'] and parameter[8][@type='double'] and parameter[9][@type='double'] and parameter[10][@type='float'] and parameter[11][@type='com.jjoe64.graphview.GraphViewSeries.GraphViewSeriesStyle']]"
+          name="visibility">protected</attr>
+    
+    <attr path="/api/package[@name='com.jjoe64.graphview']/class[@name='LineGraphView']/method[@name='drawSeries' and count(parameter)=11 and parameter[1][@type='android.graphics.Canvas'] and parameter[2][@type='com.jjoe64.graphview.GraphViewDataInterface[]'] and parameter[3][@type='float'] and parameter[4][@type='float'] and parameter[5][@type='float'] and parameter[6][@type='double'] and parameter[7][@type='double'] and parameter[8][@type='double'] and parameter[9][@type='double'] and parameter[10][@type='float'] and parameter[11][@type='com.jjoe64.graphview.GraphViewSeries.GraphViewSeriesStyle']]"
+          name="visibility">protected</attr>
+    
+    <!-- Normalize the namespace for .NET -->
+    <attr path="/api/package[@name='com.jjoe64.graphview']" name="managedName">JJoe64Graph</attr>
+</metadata>
