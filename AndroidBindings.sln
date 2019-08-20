@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.PageIndicatorView",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Picasso", "Xamarin.Picasso\Xamarin.Picasso.csproj", "{4733E4D3-F7CB-4D16-9D20-01F7EF79FA15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.RateThisApp", "Xamarin.RateThisApp\Xamarin.RateThisApp.csproj", "{B468A7EB-8F9B-417F-ACC5-0646F0D8AD7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,18 @@ Global
 		{4733E4D3-F7CB-4D16-9D20-01F7EF79FA15}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{4733E4D3-F7CB-4D16-9D20-01F7EF79FA15}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{4733E4D3-F7CB-4D16-9D20-01F7EF79FA15}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{B468A7EB-8F9B-417F-ACC5-0646F0D8AD7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B468A7EB-8F9B-417F-ACC5-0646F0D8AD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B468A7EB-8F9B-417F-ACC5-0646F0D8AD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B468A7EB-8F9B-417F-ACC5-0646F0D8AD7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B468A7EB-8F9B-417F-ACC5-0646F0D8AD7F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{B468A7EB-8F9B-417F-ACC5-0646F0D8AD7F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{B468A7EB-8F9B-417F-ACC5-0646F0D8AD7F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{B468A7EB-8F9B-417F-ACC5-0646F0D8AD7F}.Release|iPhone.Build.0 = Release|Any CPU
+		{B468A7EB-8F9B-417F-ACC5-0646F0D8AD7F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{B468A7EB-8F9B-417F-ACC5-0646F0D8AD7F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{B468A7EB-8F9B-417F-ACC5-0646F0D8AD7F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{B468A7EB-8F9B-417F-ACC5-0646F0D8AD7F}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FEA3CE6F-3E1F-40AC-B3B5-5DE1D4AEFC78} = {DE8679AA-850D-46E3-83F1-40FC096949E5}
@@ -92,6 +106,7 @@ Global
 		{E128E4A1-A099-4D83-86A8-2F639D4BB8B4} = {DE8679AA-850D-46E3-83F1-40FC096949E5}
 		{27C10BDA-FA1A-4C71-8049-21DB31EBB117} = {DE8679AA-850D-46E3-83F1-40FC096949E5}
 		{4733E4D3-F7CB-4D16-9D20-01F7EF79FA15} = {DE8679AA-850D-46E3-83F1-40FC096949E5}
+		{B468A7EB-8F9B-417F-ACC5-0646F0D8AD7F} = {DE8679AA-850D-46E3-83F1-40FC096949E5}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
