@@ -27,5 +27,5 @@
 
     <remove-node path="/api/package[@name='com.rd.draw.drawer.type']" />
 
-    <remove-node path="/api/package[@name='com.rd']/interface[@name='IndicatorManager.Listener']" />
+<!--    <remove-node path="/api/package[@name='com.rd']/interface[@name='IndicatorManager.Listener']" />-->
 </metadata>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+    <remove-node path="/api/package[@name='com.google.maps.android.clustering.algo']" />
+    
+    <!--<attr path="/api/package[@name='com.google.maps.android.data.geojson']/class[@name='GeoJsonPolygon']/method[@name='getGeometryObject' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.google.maps.android.data.kml']/class[@name='KmlPolygon']/method[@name='getGeometryObject' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.google.maps.android.data']/class[@name='MultiGeometry']/method[@name='getGeometryObject' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.google.maps.android.data']/class[@name='Point']/method[@name='getGeometryObject' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>-->
+    
+    <remove-node path="/api/package[@name='com.google.maps.android.data']/interface[@name='Geometry']/method[@name='getGeometryObject' and count(parameter)=0]" />
+    
+    <attr path="/api/package[@name='com.google.maps.android.data.kml']/class[@name='KmlLayer']/method[@name='getContainers' and count(parameter)=0]" name="visibility">protected</attr>
+    <attr path="/api/package[@name='com.google.maps.android.data.kml']/class[@name='KmlLayer']/method[@name='getGroundOverlays' and count(parameter)=0]" name="visibility">protected</attr>
+    <attr path="/api/package[@name='com.google.maps.android.data.kml']/class[@name='KmlLayer']/method[@name='hasContainers' and count(parameter)=0]" name="visibility">protected</attr>
+</metadata>
