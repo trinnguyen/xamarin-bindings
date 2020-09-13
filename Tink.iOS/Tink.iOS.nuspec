@@ -6,7 +6,7 @@
     <authors>Tri Nguyen</authors>
     <owners>Tri Nguyen</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectUrl>https://github.com/trinnguyen/xamarin-bindings</projectUrl>
+    <projectUrl>https://github.com/trinnguyen/xamarin-bindings/tree/master/Tink.iOS</projectUrl>
     <description>Xamarin.iOS binding for Google Tink Crypto Library</description>
     <releaseNotes>Native ObjC Tink 1.4.0</releaseNotes>
     <copyright>Copyright 2020 Google</copyright>
