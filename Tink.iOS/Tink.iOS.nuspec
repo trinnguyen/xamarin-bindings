@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Tink.iOS</id>
+    <version>1.4.0-alpha</version>
+    <authors>Tri Nguyen</authors>
+    <owners>Tri Nguyen</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/trinnguyen/xamarin-bindings</projectUrl>
+    <description>Xamarin.iOS binding for Google Tink Crypto Library</description>
+    <releaseNotes>Native ObjC Tink 1.4.0</releaseNotes>
+    <copyright>Copyright 2020 Google</copyright>
+    <tags>tink crypto aes-gcm-siv aead</tags>
+    <dependencies>
+      <group targetFramework="Xamarin.iOS10"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Tink.iOS.dll" target="lib\Xamarin.iOS10\Tink.iOS.dll" />
+    <file src="bin\Release\Tink.iOS.pdb" target="lib\Xamarin.iOS10\Tink.iOS.pdb" />
+  </files>
+</package>
