@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Tink.iOS</id>
-    <version>1.4.0-alpha</version>
+    <version>1.4.0</version>
     <authors>Tri Nguyen</authors>
     <owners>Tri Nguyen</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

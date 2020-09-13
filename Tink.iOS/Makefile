@@ -15,7 +15,7 @@ clean:
 	rm -rf Tink-dist
 
 nuget-pack:
-	nuget pack
+	nuget pack Tink.iOS.nuspec 
 
 nuget-push:
-	nuget push
+	nuget push -Source https://api.nuget.org/v3/index.json

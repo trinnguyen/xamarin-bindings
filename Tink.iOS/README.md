@@ -123,3 +123,30 @@ if (error != null)
 }
 Console.WriteLine(unencryped.ToString(NSStringEncoding.UTF8));
 ```
+
+### Known issue
+
+- Load from iOS keychain throw Exception if the keyset is not yet exist
+- Reason: Xamarin.iOS binding can not create new NULL instance
+- Solution: use try-catch
+```csharp
+private static TINKKeysetHandle LoadFromKeychain(string keysetName)
+{
+    try
+    {
+        TINKKeysetHandle handleStore = new TINKKeysetHandle(keysetName, out NSError error);
+        if (error != null)
+        {
+            Debug.WriteLine(error.LocalizedFailureReason);
+            return null;
+        }
+
+        return handleStore;
+
+    }
+    catch (Exception ex)
+    {
+        return null;
+    }
+}
+```
