@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Tnn.Xamarin.Android.Maps.Utils</id>
+    <version>2.0.3</version>
+    <title>Maps SDK for Android Utility Library (Xamarin.Android binding)</title>
+    <authors>Tri Nguyen</authors>
+    <owners>Tri Nguyen</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/trinnguyen/xamarin-bindings/tree/master/Xamarin.Android.Maps.Utils</projectUrl>
+    <description>Unofficial Xamarin.Android binding for Maps SDK for Android Utility Library</description>
+    <releaseNotes>Version 2.0.3</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>Xamarin.Android maps Utility</tags>
+    <dependencies>
+      <group targetFramework="monoandroid90">
+        <dependency id="Xamarin.GooglePlayServices.Maps" version="117.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Xamarin.Android.Maps.Utils.dll" target="lib\monoandroid90\Xamarin.Android.Maps.Utils.dll" />
+    <file src="bin\Release\Xamarin.Android.Maps.Utils.pdb" target="lib\monoandroid90\Xamarin.Android.Maps.Utils.pdb" />
+  </files>
+</package>
