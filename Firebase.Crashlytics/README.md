@@ -1,9 +1,6 @@
 # Xamarin.Android binding for Firebase Crashlytics (Android)
 [![NuGet version](https://badge.fury.io/nu/Tnn.Firebase.Crashlytics.svg)](https://badge.fury.io/nu/Tnn.Firebase.Crashlytics)
 
-- Use Google Tink Crypto library for encrypting/decrypting key and value
-- Keyset is generated at runtime if not exist, stored in iOS Keychain
-
 ## Install Nuget package
 - https://www.nuget.org/packages/Tnn.Firebase.Crashlytics
 
