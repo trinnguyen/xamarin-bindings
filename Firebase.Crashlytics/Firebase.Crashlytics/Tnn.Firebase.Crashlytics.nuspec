@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Tnn.Firebase.Crashlytics</id>
+        <title>Tnn.Firebase.Crashlytics</title>
+        <authors>Tri Nguyen</authors>
+        <owners>Tri Nguyen</owners>
+        <version>17.1.1</version>
+        <releaseNotes>
+            Xamarin.Android binding for Firebase Crashlytics 17.1.1
+        </releaseNotes>
+        <license type="expression">Apache-2.0</license>
+        <projectUrl>
+            https://github.com/trinnguyen/tnn-firebase-crashlytics
+        </projectUrl>
+        <description>
+            Xamarin.Android binding for Firebase Crashlytics 17.1.1. Use guide at: https://firebase.google.com/docs/crashlytics/get-started?platform=android
+        </description>
+        <tags>
+            firebase-crashlytics crashlytics xamarin.android xamarin.firebase.crashlytics firebase.crashlytics
+        </tags>
+        <dependencies>
+            <group targetFramework="MonoAndroid10">
+                <dependency id="Square.OkHttp3" version="3.12.1" />
+                <dependency id="Xamarin.Firebase.Common" version="119.3.0" />
+                <dependency id="Xamarin.Firebase.Encoders.JSON" version="116.1.0" />
+                <dependency id="Xamarin.Firebase.Iid" version="120.1.7" />
+                <dependency id="Xamarin.Firebase.Measurement.Connector" version="118.0.0" />
+                <dependency id="Xamarin.Google.Android.DataTransport.TransportBackendCct" version="2.2.3" />
+                <dependency id="Xamarin.Google.Android.DataTransport.TransportRuntime" version="2.2.3" />
+                <dependency id="Xamarin.Google.Dagger" version="2.25.2.1" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\Release\Tnn.Firebase.Crashlytics.dll" target="lib/MonoAndroid10/Tnn.Firebase.Crashlytics.dll" />
+        <file src="bin\Release\Tnn.Firebase.Crashlytics.pdb" target="lib/MonoAndroid10/Tnn.Firebase.Crashlytics.pdb" />
+    </files>
+</package>

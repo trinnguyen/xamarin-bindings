@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!-- update namespace-->
+    <attr path="/api/package[@name='com.google.firebase.crashlytics']" name="managedName">Firebase.Crashlytics</attr>
+    
+    <!-- remove internal packages from public Xamarin API -->
+    <remove-node path="/api/package[@name='com.google.firebase.crashlytics.internal']" />
+    <remove-node path="/api/package[@name='com.google.firebase.crashlytics.internal.analytics']" />
+    <remove-node path="/api/package[@name='com.google.firebase.crashlytics.internal.breadcrumbs']" />
+    <remove-node path="/api/package[@name='com.google.firebase.crashlytics.internal.common']" />
+    <remove-node path="/api/package[@name='com.google.firebase.crashlytics.internal.log']" />
+    <remove-node path="/api/package[@name='com.google.firebase.crashlytics.internal.model']" />
+    <remove-node path="/api/package[@name='com.google.firebase.crashlytics.internal.model.serialization']" />
+    <remove-node path="/api/package[@name='com.google.firebase.crashlytics.internal.ndk']" />
+    <remove-node path="/api/package[@name='com.google.firebase.crashlytics.internal.network']" />
+    <remove-node path="/api/package[@name='com.google.firebase.crashlytics.internal.persistence']" />
+    <remove-node path="/api/package[@name='com.google.firebase.crashlytics.internal.proto']" />
+    <remove-node path="/api/package[@name='com.google.firebase.crashlytics.internal.report']" />
+    <remove-node path="/api/package[@name='com.google.firebase.crashlytics.internal.report.model']" />
+    <remove-node path="/api/package[@name='com.google.firebase.crashlytics.internal.report.network']" />
+    <remove-node path="/api/package[@name='com.google.firebase.crashlytics.internal.send']" />
+    <remove-node path="/api/package[@name='com.google.firebase.crashlytics.internal.settings']" />
+    <remove-node path="/api/package[@name='com.google.firebase.crashlytics.internal.settings.model']" />
+    <remove-node path="/api/package[@name='com.google.firebase.crashlytics.internal.settings.network']" />
+    <remove-node path="/api/package[@name='com.google.firebase.crashlytics.internal.stacktrace']" />
+    <remove-node path="/api/package[@name='com.google.firebase.crashlytics.internal.unity']" />
+</metadata>
