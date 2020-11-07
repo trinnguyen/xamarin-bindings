@@ -99,7 +99,7 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Tnn.Firebase.Crashlytics" Version="17.1.1-alpha02" />
+    <PackageReference Include="Tnn.Firebase.Crashlytics" Version="17.1.1" />
     <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.1.0.2" />
   </ItemGroup>
   <ItemGroup>

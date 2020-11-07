@@ -37,3 +37,5 @@ Firebase.Crashlytics.FirebaseCrashlytics.Instance.Log($"sample log");
 ```csharp
 Firebase.Crashlytics.FirebaseCrashlytics.Instance.RecordException(new Java.Lang.Exception($"sample exception"));
 ```
+## Sample project
+- Checkout sample Xamarin.Android project: [DemoCrashApp](DemoCrashApp)
