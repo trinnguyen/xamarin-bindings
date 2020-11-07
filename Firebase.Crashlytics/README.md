@@ -48,5 +48,17 @@ Firebase.Crashlytics.FirebaseCrashlytics.Instance.Log($"sample log");
 ```csharp
 Firebase.Crashlytics.FirebaseCrashlytics.Instance.RecordException(new Java.Lang.Exception($"sample exception"));
 ```
+
+### Debug with ADB
+- Enable debug logging
+```shell
+adb shell setprop log.tag.FirebaseCrashlytics DEBUG
+```
+
+- View log
+```shell
+adb logcat -s FirebaseCrashlytics
+```
+
 ## Sample project
 - Checkout sample Xamarin.Android project: [DemoCrashApp](DemoCrashApp)
