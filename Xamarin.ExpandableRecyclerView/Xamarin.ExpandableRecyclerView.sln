@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.ExpandableRecyclerView", "Xamarin.ExpandableRecyclerView.csproj", "{FEA3CE6F-3E1F-40AC-B3B5-5DE1D4AEFC78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidBlankApp1", "AndroidBlankApp1\AndroidBlankApp1.csproj", "{C5595D45-6201-484E-A377-5CDA6BF3AB0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEA3CE6F-3E1F-40AC-B3B5-5DE1D4AEFC78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEA3CE6F-3E1F-40AC-B3B5-5DE1D4AEFC78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEA3CE6F-3E1F-40AC-B3B5-5DE1D4AEFC78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEA3CE6F-3E1F-40AC-B3B5-5DE1D4AEFC78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5595D45-6201-484E-A377-5CDA6BF3AB0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5595D45-6201-484E-A377-5CDA6BF3AB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5595D45-6201-484E-A377-5CDA6BF3AB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5595D45-6201-484E-A377-5CDA6BF3AB0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
