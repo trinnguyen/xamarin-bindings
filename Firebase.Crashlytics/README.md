@@ -14,7 +14,10 @@
 
 ### Step 2: Update Xamarin.Android project
 - Download `google-services.json` file of the Android app from Firebase Console and add to the project, set Build Action to `GoogleServicesJson`
-- Open `strings.xml`, add `<string name="com.google.firebase.crashlytics.mapping_file_id">1.0</string>`
+- Open **strings.xml**, add one field (value can be 1.0 or anything)
+```xml
+<string name="com.google.firebase.crashlytics.mapping_file_id">1.0</string>
+```
 
 ### Step 3: Open Firebase Console -> Crashlytics
 - Click **Enable Crashlytics**
