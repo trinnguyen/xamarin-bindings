@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='androidx.security.crypto']/class[@name='EncryptedFile']/method[@name='openFileInput' and count(parameter)=0]" name="return">Java.IO.FileInputStream</attr>
+    <attr path="/api/package[@name='androidx.security.crypto']/class[@name='EncryptedFile']/method[@name='openFileOutput' and count(parameter)=0]" name="return">Java.IO.FileOutputStream</attr>
+</metadata>
