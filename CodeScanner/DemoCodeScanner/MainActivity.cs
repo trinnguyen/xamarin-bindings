@@ -1,12 +1,11 @@
 ﻿using Android;
 using Android.App;
-using Android.Content;
 using Android.Content.PM;
 using Android.OS;
 using Android.Util;
 using AndroidX.Core.App;
 using AndroidX.Core.Content;
-using Com.Budiyev.Android.Codescanner;
+using Firebase.CodeScanner;
 using Result = Google.ZXing.Result;
 
 namespace DemoCodeScanner
@@ -24,7 +23,12 @@ namespace DemoCodeScanner
             SetContentView(Resource.Layout.activity_main);
             
             _scannerView = FindViewById<CodeScannerView>(Resource.Id.scanner_view);
-            _codeScanner = new CodeScanner(this, _scannerView);
+            _codeScanner = new CodeScanner(this, _scannerView)
+            {
+                ScanMode = ScanMode.Continuous, 
+                AutoFocusEnabled = true,
+                AutoFocusMode = AutoFocusMode.Continuous
+            };
         }
 
         protected override void OnResume()

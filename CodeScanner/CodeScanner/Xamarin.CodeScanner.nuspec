@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Xamarin.CodeScanner</id>
+        <title>Xamarin.CodeScanner</title>
+        <authors>Tri Nguyen</authors>
+        <owners>Tri Nguyen</owners>
+        <version>2.1.0-alpha</version>
+        <releaseNotes>
+            Xamarin.Android binding for code-scanner
+        </releaseNotes>
+        <license type="expression">MIT</license>
+        <projectUrl>
+            https://github.com/trinnguyen/xamarin-bindings/tree/master/CodeScanner
+        </projectUrl>
+        <description>
+            Xamarin.Android binding for barcode scanner library. Use guide at: https://github.com/trinnguyen/xamarin-bindings/tree/master/CodeScanner
+        </description>
+        <tags>
+            code-scanner codescanner xamarin.android barcode barcode-scanner
+        </tags>
+        <dependencies>
+            <group targetFramework="MonoAndroid10">
+                <dependency id="Xamarin.AndroidX.Annotation" version="1.1.0" />
+                <dependency id="Xamarin.Google.ZXing.Core" version="3.3.3" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\Release\Xamarin.CodeScanner.dll" target="lib/MonoAndroid10/Xamarin.CodeScanner.dll" />
+        <file src="bin\Release\Xamarin.CodeScanner.pdb" target="lib/MonoAndroid10/Xamarin.CodeScanner.pdb" />
+    </files>
+</package>
