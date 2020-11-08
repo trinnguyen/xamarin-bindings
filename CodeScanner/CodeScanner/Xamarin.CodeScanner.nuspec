@@ -5,7 +5,7 @@
         <title>Xamarin.CodeScanner</title>
         <authors>Tri Nguyen</authors>
         <owners>Tri Nguyen</owners>
-        <version>2.1.0-alpha</version>
+        <version>2.1.0</version>
         <releaseNotes>
             Xamarin.Android binding for code-scanner
         </releaseNotes>
