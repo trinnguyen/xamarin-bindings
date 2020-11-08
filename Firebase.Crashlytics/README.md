@@ -1,9 +1,6 @@
 # Xamarin.Android binding for Firebase Crashlytics (Android)
 [![NuGet version](https://badge.fury.io/nu/Tnn.Firebase.Crashlytics.svg)](https://badge.fury.io/nu/Tnn.Firebase.Crashlytics)
 
-- Use Google Tink Crypto library for encrypting/decrypting key and value
-- Keyset is generated at runtime if not exist, stored in iOS Keychain
-
 ## Install Nuget package
 - https://www.nuget.org/packages/Tnn.Firebase.Crashlytics
 
@@ -51,5 +48,17 @@ Firebase.Crashlytics.FirebaseCrashlytics.Instance.Log($"sample log");
 ```csharp
 Firebase.Crashlytics.FirebaseCrashlytics.Instance.RecordException(new Java.Lang.Exception($"sample exception"));
 ```
+
+### Debug with ADB
+- Enable debug logging
+```shell
+adb shell setprop log.tag.FirebaseCrashlytics DEBUG
+```
+
+- View log
+```shell
+adb logcat -s FirebaseCrashlytics
+```
+
 ## Sample project
 - Checkout sample Xamarin.Android project: [DemoCrashApp](DemoCrashApp)
