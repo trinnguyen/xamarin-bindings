@@ -1,5 +1,7 @@
-# Xamarin.Android binding for Firebase Crashlytics (Android)
+# Xamarin.CodeScanner
 [![NuGet version](https://badge.fury.io/nu/Xamarin.CodeScanner.svg)](https://badge.fury.io/nu/Xamarin.CodeScanner)
+
+- Xamari.Android binding of (code-scanner)[https://github.com/yuriy-budiyev/code-scanner]
 
 ## Get started
 
