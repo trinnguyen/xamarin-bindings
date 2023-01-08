@@ -2,22 +2,22 @@
 <package >
   <metadata>
     <id>Xamarin.RateThisApp</id>
-    <version>1.2.0</version>
+    <version>1.2.1</version>
     <title>Xamarin.RateThisApp</title>
     <authors>Tri Nguyen</authors>
     <owners>Tri Nguyen</owners>
     <projectUrl>https://github.com/trinnguyen/xamarin-bindings/tree/master/Xamarin.RateThisApp</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Xamarin.Android Binding for RateThisApp library (show "Rate this app" dialog)</description>
-    <releaseNotes>Binding for Android library version 1.2.0</releaseNotes>
-    <copyright>Copyright 2020</copyright>
+    <releaseNotes>Binding for Android library version 1.2.1</releaseNotes>
+    <copyright>Copyright 2023</copyright>
     <tags>RateThisApp</tags>
     <dependencies>
-      <group targetFramework="MonoAndroid9.0" />
+      <group targetFramework="MonoAndroid12" />
     </dependencies>
   </metadata>
   <files>
-    <file src="bin/Release/Xamarin.RateThisApp.dll" target="lib\monoandroid90" />
-    <file src="bin/Release/Xamarin.RateThisApp.pdb" target="lib\monoandroid90" />
+    <file src="bin/Release/Xamarin.RateThisApp.dll" target="lib\MonoAndroid12" />
+    <file src="bin/Release/Xamarin.RateThisApp.pdb" target="lib\MonoAndroid12" />
   </files>
 </package>
