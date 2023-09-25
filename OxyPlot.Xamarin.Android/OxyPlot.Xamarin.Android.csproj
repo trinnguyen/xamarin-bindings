@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net7.0-android</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>true</ImplicitUsings>
+
+        <!-- Nuget package -->
+        <PackageId>Tnn.OxyPlot.Xamarin.Android</PackageId>
+        <Version>2.1.2</Version>
+        <Authors>Tri Nguyen</Authors>
+        <Title>Tnn.OxyPlot.Xamarin.iOS</Title>
+        <PackageProjectUrl>https://github.com/trinnguyen/xamarin-bindings/tree/master/OxyPlot.Xamarin.Android</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Description>OxyPlot.Xamarin.iOS for Net 7 Android</Description>
+        <PackageReleaseNotes>OxyPlot.Xamarin.iOS for Net 7 Android</PackageReleaseNotes>
+        <PackageTags>xamarin ios OxyPlot OxyPlot.Xamarin.Android</PackageTags>
+    </PropertyGroup>
+    <ItemGroup>
+      <PackageReference Include="OxyPlot.Core" Version="2.1.2" />
+    </ItemGroup>
+</Project>
