@@ -1,5 +1,8 @@
 SRC=src-remote
 NUGET_VERSION=2.1.2
+
+all: checkout build pack
+
 checkout:
 	rm -rf ${SRC}
 	git clone https://github.com/oxyplot/oxyplot-xamarin.git ${SRC} --depth 1

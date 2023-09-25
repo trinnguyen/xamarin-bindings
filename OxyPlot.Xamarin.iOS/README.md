@@ -10,5 +10,5 @@ https://www.nuget.org/packages/Tnn.OxyPlot.Xamarin.iOS/
 
 
 ## Build
-- Copy all `.cs` from the [OxyPlot.Xamarin.iOS repository](OxyPlot.Xamarin.iOS)
+- Copy all `.cs` from the [OxyPlot.Xamarin.iOS repository](https://github.com/oxyplot/oxyplot-xamarin/tree/develop/Source/OxyPlot.Xamarin.iOS)
 - Run `make`
