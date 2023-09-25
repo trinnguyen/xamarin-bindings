@@ -8,7 +8,7 @@
 
     <!-- Nuget package -->
     <PackageId>Xamarin.Toast</PackageId>
-    <version>4.0.1</version>
+    <version>4.0.2</version>
     <Authors>Tri Nguyen</Authors>
     <Title>Xamarin.Toast</Title>
     <PackageProjectUrl>https://github.com/trinnguyen/xamarin-bindings</PackageProjectUrl>
@@ -22,8 +22,9 @@
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
   <ItemGroup>
-    <NativeReference Include="libToast.a">
-      <Kind>Static</Kind>
+    <NativeReference Include="Toast.framework">
+      <Kind>Framework</Kind>
+      <SmartLink>False</SmartLink>
     </NativeReference>
   </ItemGroup>
 </Project>
