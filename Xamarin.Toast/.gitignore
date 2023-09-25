@@ -331,3 +331,7 @@ ASALocalRun/
 
 # Framework
 *.framework
+
+/Toast-master
+Toast.zip
+*.a

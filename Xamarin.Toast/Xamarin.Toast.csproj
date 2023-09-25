@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-ios</TargetFramework>
+    <RootNamespace>SVProgressHUDBinding</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <IsBindingProject>true</IsBindingProject>
+
+    <!-- Nuget package -->
+    <PackageId>Xamarin.Toast</PackageId>
+    <version>4.0.1</version>
+    <Authors>Tri Nguyen</Authors>
+    <Title>Xamarin.Toast</Title>
+    <PackageProjectUrl>https://github.com/trinnguyen/xamarin-bindings</PackageProjectUrl>
+    <Description>Toast binding for Net 7.0 iOS</Description>
+    <PackageReleaseNotes>Toast binding for Net 7.0 iOS</PackageReleaseNotes>
+    <PackageTags>xamarin.ios xamarin.toast toast</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
+    <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="libToast.a">
+      <Kind>Static</Kind>
+    </NativeReference>
+  </ItemGroup>
+</Project>

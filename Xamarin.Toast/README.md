@@ -1,6 +1,8 @@
 # Toast for Xamarin.iOS
 [![NuGet version](https://badge.fury.io/nu/Xamarin.Toast.svg)](https://badge.fury.io/nu/Xamarin.Toast)
 
+**Net 7.0 for iOS is supported (Xcode 15, iOS 17)**
+
 Xamarin.iOS Binding Library for [Toast](https://github.com/scalessec/Toast)
 
 **Native Objective-C library: https://github.com/scalessec/Toast**
@@ -39,4 +41,4 @@ View.ShowToast(customView);
 ## Nuget
 https://www.nuget.org/packages/Xamarin.Toast
 
-` Install-Package Xamarin.Toast -Version 4.0.0`
+`dotnet add package Xamarin.Toast`
