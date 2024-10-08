@@ -1,4 +1,4 @@
-all: clean prepare xcodeframework xcodecreate build clean
+all: clean prepare xcodeframework xcodecreate build
 
 prepare:
 	curl -L https://github.com/TTTAttributedLabel/TTTAttributedLabel/archive/refs/heads/master.zip | tar xz
