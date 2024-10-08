@@ -1,5 +1,3 @@
-NUGET_VERSION=1.0.0
-
 all: clean prepare xcodeframework xcodecreate build clean
 
 prepare:
@@ -20,7 +18,7 @@ build:
 	ls bin/Release
 
 nuget:
-	nuget push bin/Release/Xamarin.TTTAttributedLabel.${NUGET_VERSION}.nupkg -Source nuget.org
+	dotnet nuget push bin/Release/*.nupkg -k ${NUGET_API_KEY} -s https://api.nuget.org/v3/index.json
 
 clean:
 	rm -rf src
