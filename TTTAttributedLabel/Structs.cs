@@ -1,6 +1,6 @@
 ﻿using ObjCRuntime;
 
-namespace TTTAttributedLabelBinding
+namespace Xamarin.TTTAttributedLabel
 {
     [Native]
     public enum TTTAttributedLabelVerticalAlignment : long

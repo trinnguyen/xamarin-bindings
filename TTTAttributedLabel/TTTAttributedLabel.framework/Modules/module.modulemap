@@ -1,6 +1,0 @@
-framework module TTTAttributedLabel {
-  umbrella header "TTTAttributedLabel.h"
-
-  export *
-  module * { export * }
-}

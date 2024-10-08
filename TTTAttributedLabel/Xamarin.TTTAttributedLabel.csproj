@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-ios</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <IsBindingProject>true</IsBindingProject>
+    <AssemblyName>Xamarin.TTTAttributedLabel</AssemblyName>
+    <RootNamespace>Xamarin.TTTAttributedLabel</RootNamespace>
+
+    <!-- Nuget package -->
+    <PackageId>Tnn.TTTAttributedLabel</PackageId>
+    <Version>1.0.0.0</Version>
+    <Authors>Tri Nguyen</Authors>
+    <Title>TTTAttributedLabel</Title>
+    <PackageProjectUrl>https://github.com/trinnguyen/xamarin-bindings</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>TTTAttributedLabel binding for Net 8.0 iOS</Description>
+    <PackageReleaseNotes>TTTAttributedLabel binding for Net 8.0 iOS</PackageReleaseNotes>
+    <PackageTags>xamarin ios TTTAttributedLabel</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <NativeReference Include="TTTAttributedLabel.xcframework">
+      <Kind>Framework</Kind>
+      <SmartLink>False</SmartLink>
+    </NativeReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
+    <ObjcBindingCoreSource Include="Structs.cs" />
+  </ItemGroup>
+</Project>
